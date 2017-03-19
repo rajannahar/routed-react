@@ -44,7 +44,7 @@ export class Form extends React.Component {
 	render() {
 		return (
 			<div className="full-width-forms">
-			<h1>This is the form</h1>
+			<h3>Form Component</h3>
 
 				<form onSubmit={this.handleSubmit}>
 					<div className="col-1-2">
