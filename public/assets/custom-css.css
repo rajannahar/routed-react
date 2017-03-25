@@ -16,6 +16,11 @@
     opacity: 0;
 }
 
+.userdetails img {
+    width: 200px;
+    height: auto;
+}
+
 @media screen and (min-width: 860px) {
 	#menu-toggle {
 		display: none;
