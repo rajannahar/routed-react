@@ -6,13 +6,13 @@ class UserDetail extends Component {
 	render() {
 		if (!this.props.user) {
 			return (
-				<h4>Select a user...</h4>
+				<h5>Select a user...</h5>
 			);
 		}
 		return (
 			<div className="userdetails">
 				<img src={this.props.user.thumbnail} />
-				<h4>{this.props.user.first} {this.props.user.last}</h4>
+				<h4>Name: {this.props.user.first} {this.props.user.last}</h4>
 				<h4>Age: {this.props.user.age}</h4>
 				<h4>Description: {this.props.user.description}</h4>
 			</div>

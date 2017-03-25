@@ -4,10 +4,10 @@ import UserDetail from '../containers/userDetail';
 
 const AppComponent = () => (
 	<div>
-		<h2>Username List: </h2>
+		<h4>Username List: </h4>
 		<UserList />
 		<hr/>
-		<h2>User Details: </h2>
+		<h4>User Details: </h4>
 		<UserDetail />
 	</div>
 );
